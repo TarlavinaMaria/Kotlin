@@ -127,6 +127,8 @@ fun main() {
     val emotional = sin(2 * PI * totalDays / 28) * 100
     val intellectual = sin(2 * PI * totalDays / 33) * 100
 
+    println("Дата рождения: $birthDay.$birthMonth.$birthYear")
+
     println("\nРезультаты биоритмов:")
     println("Физический (23-дневный цикл): ${physical}%")
     println("Эмоциональный (28-дневный цикл): ${emotional}%")
